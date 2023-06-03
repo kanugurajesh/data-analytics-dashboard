@@ -27,6 +27,7 @@ section {
     background-position: -100px;
     height: 100%;
     padding: 2em;
+    border-radius: 13px;
 }
 
 nav {
