@@ -59,3 +59,43 @@ h1 {
     color: #fff;
     line-height:89%
 }
+
+.cv {
+    display:grid;
+    place-items: center;
+    height: 80%;
+}
+
+.content p {
+    font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
+    font-weight: 300;
+    line-height: 111%;
+    color: #847D93;
+    margin-top: 1.1em;
+}
+
+.cta {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-top:2.875em;
+    display: inline-block;
+    border: 1px solid #4D4D4D;
+    /* padding:1.25em 1.25em 1.25em calc(2.5em + 1.5em); */
+    padding: 1.25em 1.25em 1.25em calc(2.5em + 1.5em);
+    position: relative;
+}
+
+.cta::before {
+    content:"";
+    position: absolute;
+    background: url("img/arrow.svg") no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+    left: 1.25em;
+}
+
+.cta:hover {
+    background: var(--primary-color);
+}
