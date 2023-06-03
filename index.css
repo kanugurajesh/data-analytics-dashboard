@@ -5,7 +5,7 @@
 }
 
 :root {
-
+    --primary-color:#2D7DFF;
 }
 
 body {
@@ -26,8 +26,36 @@ section {
     background-size: cover;
     background-position: -100px;
     height: 100%;
+    padding: 2em;
 }
 
 nav {
     display: none;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -.1em;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+}
+
+.menu-btn {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: clamp(2.5rem,-0.875rem + 8.333vw, 4rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    line-height:89%
 }
