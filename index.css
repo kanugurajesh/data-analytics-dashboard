@@ -1,0 +1,33 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+}
+
+body {
+    background: linear-gradient(220deg, rgba(189,0,255,1) 0%, rgba(0,163,255,1) 100%);
+    height: 100vh;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 1em .5em;
+    height: calc(100vh - 2em);
+}
+
+section {
+    background: #221F26 url("img/background.jpg");
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: -100px;
+    height: 100%;
+}
+
+nav {
+    display: none;
+}
